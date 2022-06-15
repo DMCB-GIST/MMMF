@@ -1,0 +1,11 @@
+# ignore all Data
+*.csv
+
+# ignore index file
+*.pickle
+
+# ignore python cache
+*.pyc
+
+# ignore all Pretrained Model
+*.pt
