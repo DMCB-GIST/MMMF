@@ -17,8 +17,8 @@ And **gradient surgery that projects a classification gradient onto the normal p
 | Dataset | Modality |
 | --- | --- |
 | ADNI | structural magnetic resonance imaging (sMRI), positron emission tomography (PET), gene expression(GE) |
-| ROSMAP | gene expression (GE), protein abundance (PROT), copy number variants (CNV) |
-| BRCA | Gaussian | 
+| ROSMAP | gene expression (GE), DNA methylation (ME), microRNA expression(MI) |
+| BRCA | gene expression (GE), protein abundance (PROT), copy number variants (CNV) | 
 | KIRC | gene expression (GE), DNA methylation (ME), microRNA expression(MI) | 
 | Colon | gene expression (GE), DNA methylation (ME), CpGs |
 
