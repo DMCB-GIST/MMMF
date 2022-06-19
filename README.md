@@ -35,10 +35,10 @@ And **gradient surgery that projects a classification gradient onto the normal p
     - data_type: Dataset (0: ADNI, 1: ROSMAP, 2: BRCA, 3: KIRC, 4: Colon)
     - mp: Top 1000, 2000, 3000 features with the highest variances from the training dataset of each cross-validation. (0: 1000, 1: 2000, 2: 3000)
     - du_list: Hyper-parameters of dimensions ($[D i2 , D i3 , h]$)
-    - re_lr: Learning rate were used for training multiple coefficient matrices ($V_{i,r}$). ($\eta_1$)
-    - re_reg: Regularization rate were used for training multiple coefficient matrices ($V_{i,r}$). ($\alpha$)
-    - clf_lr: Learning rate were used for train classifier ($f(\cdot)$) and a common basis matrix ($U$) ($\eta_2$)
-    - clf_reg: Regularization rate were used for train classifier ($f(\cdot)$) and a common basis matrix ($U$) ($\beta$)
+    - re_lr: Learning rate were used for training multiple coefficient matrices ($V_{i,r}$)
+    - re_reg: Regularization rate were used for training multiple coefficient matrices ($V_{i,r}$)
+    - clf_lr: Learning rate were used for train classifier and a common basis matrix ($U$)
+    - clf_reg: Regularization rate were used for train classifier and a common basis matrix ($U$)
     - re_patience: The initial patience for training $U$ using only the $G_{\text{MF}}$ ($T_{\text{p}}$)
 
 **The trained model can be downloaded from https://drive.google.com/drive/folders/1OZipD3tDRYl6dQSlebL4IY4t3h0YPDyh**
@@ -64,3 +64,5 @@ And **gradient surgery that projects a classification gradient onto the normal p
     - data_type: Dataset (0: ADNI, 1:  BRCA)
     
 **The trained model can be downloaded from https://drive.google.com/drive/folders/1OZipD3tDRYl6dQSlebL4IY4t3h0YPDyh**
+
+**All results of Classification and feature selection (Probability of each class) can be found at the https://drive.google.com/drive/folders/18DsDCMricbMlSzfKIa4lRESwGVZxuOzO**
