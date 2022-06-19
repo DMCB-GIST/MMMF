@@ -11,4 +11,4 @@
 *.pt
 
 # Except Probability
-!/Result/Probability/*.csv
+!/Result/Probability/**/**/**/**/**/.csv
