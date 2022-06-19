@@ -1,5 +1,5 @@
 # Except Probability
-!/Result/Probability/
+!/Result/Probability/*
 
 # ignore all Data
 *.csv
