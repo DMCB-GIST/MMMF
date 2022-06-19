@@ -9,3 +9,6 @@
 
 # ignore all Pretrained Model
 *.pt
+
+# Except Probability
+!/Result/Probability/
