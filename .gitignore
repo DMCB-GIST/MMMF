@@ -1,3 +1,6 @@
+# Except Probability
+!/Result/Probability/
+
 # ignore all Data
 *.csv
 
@@ -9,6 +12,3 @@
 
 # ignore all Pretrained Model
 *.pt
-
-# Except Probability
-!/Result/Probability/
