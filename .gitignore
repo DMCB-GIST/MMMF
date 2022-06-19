@@ -11,4 +11,4 @@
 *.pt
 
 # Except Probability
-!/Result/Probability/
+!/Result/Probability/*
