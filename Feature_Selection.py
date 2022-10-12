@@ -137,7 +137,7 @@ if __name__ == '__main__':
         # Feature Selection with MMMF
         else:
             # Save Path
-            save_root_path = os.path.join('./Result/Feature_Selection2/', str(top_n), str(mp), data_type)
+            save_root_path = os.path.join('./Result/Feature_Selection/', str(top_n), str(mp), data_type)
             createFolder(save_root_path)
 
             # Prepare Dataset

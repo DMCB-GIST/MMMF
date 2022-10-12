@@ -54,15 +54,5 @@ And **gradient surgery that projects a classification gradient onto the normal p
     - top_n: Top n
     - feature_selection: Feature Selection Method (0: MMMF, 1: Random)
 
-### Patyway Analysis
-- reproduction: Pathway.ipynb
-- code
-    - Pathway.py: Train Pathway Model using all dataset & MMMF
-- code argument
-    - device: GPU Device
-    - patience: Early-Stopping patience
-    - data_type: Dataset (0: ADNI, 1:  BRCA)
-    
-**The trained model can be downloaded from https://drive.google.com/drive/folders/1OZipD3tDRYl6dQSlebL4IY4t3h0YPDyh**
 
 **All results of Classification and feature selection (Probability of each class) can be found at the https://drive.google.com/drive/folders/18DsDCMricbMlSzfKIa4lRESwGVZxuOzO**
